@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Remon Livecast Full Example</title>
+    <title>WebRTC 테스트</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
@@ -14,7 +14,7 @@
         margin: 0;
       }
       .remon-local-video {
-        filter: grayscale(1);
+        /*filter: grayscale(1);*/
         transform: rotateY(180deg);
       }
       .remon-card {
@@ -78,7 +78,7 @@
         <div class="mdc-layout-grid__cell--span-12">
           <div class="mdc-card remon-card">
             <header class="remon-card__header">
-              <h2 class="mdc-typography--subtitle1">Local</h2>
+              <h2 class="mdc-typography--subtitle1">방송화면</h2>
             </header>
             <div class="mdc-card__media mdc-card__media--16-9">
               <div class="mdc-card__media-content">
@@ -99,7 +99,7 @@
         <div class="mdc-layout-grid__cell--span-6">
           <div class="mdc-card remon-card">
             <header class="remon-card__header">
-              <h2 class="mdc-typography--subtitle1">Channel list</h2>
+              <h2 class="mdc-typography--subtitle1">방송목록</h2>
             </header>
             <div class="remon-card__content">
               <ul id="channels" class="mdc-list"></ul>
@@ -110,7 +110,7 @@
         <div class="mdc-layout-grid__cell--span-6">
           <div class="mdc-card remon-card">
             <header class="remon-card__header">
-              <h2 class="mdc-typography--subtitle1">Create</h2>
+              <h2 class="mdc-typography--subtitle1">방송</h2>
             </header>
 
             <div class="remon-card__content">
