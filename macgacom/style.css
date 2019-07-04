@@ -1,0 +1,42 @@
+BODY,TD,SELECT,input,DIV,form,TEXTAREA,center,option,pre,blockquote {font-size:12px; color:#E4E4E4;text-decoration:none; font-family:µ¸À½;}
+
+BODY { scrollbar-3dlight-color:#2f2f2f;
+scrollbar-arrow-color:#660000;
+scrollbar-track-color:#000000;
+scrollbar-darkshadow-color:#000000;
+scrollbar-face-color:#000000;
+scrollbar-highlight-color:#000000;
+scrollbar-shadow-color:#000000;
+background-color: #000000;
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+overflow:auto;
+}
+
+a { selector-dummy : expression(this.hideFocus=true);}
+A:link    {color:#CB7C65;text-decoration:none;font-family: "µ¸¿ò";}
+A:visited {color:#CB7C65;text-decoration:none;font-family: "µ¸¿ò";}
+A:active  {color:#CB7C65;text-decoration:none;font-family: "µ¸¿ò";}
+A:hover  {color:#CB7C65;text-decoration:none;font-family: "µ¸¿ò";}
+
+.head {border:solid 1 black;font-size:9pt;color:black;background-color:white;height:19px}
+.textarea {border:solid 1;font-size:9pt;color:black;background-color:white;}
+.input {border:solid 1;font-size:9pt;color:black;background-color:white;}
+.submit {border:solid 0;font-size:9pt;color:white;background-color:black;height:19px}
+.familysite {cursor: hand;}
+.familysite2 {font-family: "µ¸¿ò";font-size: 11px;color: B33C3C;}
+.textinput {	font-family: "µ¸¿ò";font-size: 9pt;color: 92AAB2;background-color: #000000;border: 1px solid #1B1F21;}
+.pro_latet {
+	font-family: "µ¸¿ò";
+	font-size: 11px;
+	color:733F2F;
+	text-decoration:none;
+	word-spacing: -2px;
+}
+.counter{
+color:#6C6C6C;
+font-family:tahoma;
+font-size:10px;
+}
